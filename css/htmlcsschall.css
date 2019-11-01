@@ -2,12 +2,33 @@ nav{
     height: 90px;
     background-color: plum;
 }
+.logo{
+    height: 80px;
+    width: 80px;
+    margin-top: 3px;
+}
+.navigation{
+    margin-top: 30px;
+}
+.line{
+    border-right: 1px solid black;
+    padding-right: 20px;
+
+}
+a, .contact_num{
+    color: #713285;
+}
 .hero{
     height: 450px;
     width: 100%;
 }
 main{
-    height: 400px;
+    margin: 10px;
+}
+.section{
+    padding: 50px;
+    margin-left: 100px;
+
 }
 
 .icon{
@@ -17,28 +38,40 @@ h3{
     color: #713285;
 }
 .products{
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 400px;
+    margin: 0px;
 }
 .box2{
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 400px;
+    margin: 10px;
 }
 .miss{
+    height: 200px;
     margin-top: 20px;
-}
-.mission{
+    margin-bottom: 20px;
     background-color: plum;
-    height: 300px;
-    padding: 20px;
+    padding: 30px;
 }
 .mission_statement{
     color: #713285;
     display: flex;
     justify-content: center;
 }
+.info{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
-
+.center{
+    text-align: center;
+}
+.paragraph{
+    margin: 50px;
+    width: 400px;
+}
 
 
 
@@ -47,8 +80,16 @@ h3{
 footer{
     background-color: plum;
     height: 100px;
+    margin-top: 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+      
 }
 .footer_number, .website, .email{
     color: #713285;
     font-size: 24px;
+    margin-top: 30px;
 }

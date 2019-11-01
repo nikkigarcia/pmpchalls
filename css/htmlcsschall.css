@@ -1,0 +1,54 @@
+nav{
+    height: 90px;
+    background-color: plum;
+}
+.hero{
+    height: 450px;
+    width: 100%;
+}
+main{
+    height: 400px;
+}
+
+.icon{
+    height: 100px;
+}
+h3{
+    color: #713285;
+}
+.products{
+    height: 200px;
+    width: 300px;
+}
+.box2{
+    height: 200px;
+    width: 300px;
+}
+.miss{
+    margin-top: 20px;
+}
+.mission{
+    background-color: plum;
+    height: 300px;
+    padding: 20px;
+}
+.mission_statement{
+    color: #713285;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* footer */
+
+footer{
+    background-color: plum;
+    height: 100px;
+}
+.footer_number, .website, .email{
+    color: #713285;
+    font-size: 24px;
+}
